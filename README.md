@@ -45,3 +45,5 @@ The system is connected to a SQL Server database that includes:
 5. Add the SQL Server JDBC driver to the project libraries.
 6. Run the `Main` or `MainFrame` class to start the application.
 
+> Note: You need to add the Microsoft SQL Server JDBC Driver manually to the project libraries.
+
