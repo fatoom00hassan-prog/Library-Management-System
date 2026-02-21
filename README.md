@@ -36,5 +36,12 @@ The system is connected to a SQL Server database that includes:
 - Borrowing Records Table
 - Defined relationships using ERD
 
+##  How to Run the project 
 
+1. Clone the repository.
+2. Open the project in a Java IDE (IntelliJ IDEA, Eclipse, or VS Code).
+3. Create a SQL Server database (e.g., LMS).
+4. Update the database credentials in `DatabaseConnection.java`.
+5. Add the SQL Server JDBC driver to the project libraries.
+6. Run the `Main` or `MainFrame` class to start the application.
 
