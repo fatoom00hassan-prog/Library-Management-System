@@ -8,13 +8,18 @@ The system automates core library operations including book management, member r
 This project was developed as a group project at Imam Abdulrahman Bin Faisal University (IAU).
 
 
+##  Tech Stack
 
-##  Technologies Used
-- Java (OOP)
-- JDBC (Java Database Connectivity)
-- SQL Server
-- Java GUI (Swing)
-- ERD & UML Design
+Language: Java  
+
+Programming Paradigm: Object-Oriented Programming (OOP)  
+
+Database: Microsoft SQL Server  
+
+Database Connectivity: JDBC (Java Database Connectivity)  
+
+User Interface: Java Swing
+
 
 ##  System Features
 
@@ -36,14 +41,5 @@ The system is connected to a SQL Server database that includes:
 - Borrowing Records Table
 - Defined relationships using ERD
 
-##  How to Run the project 
 
-1. Clone the repository.
-2. Open the project in a Java IDE (IntelliJ IDEA, Eclipse, or VS Code).
-3. Create a SQL Server database (e.g., LMS).
-4. Update the database credentials in `DatabaseConnection.java`.
-5. Add the SQL Server JDBC driver to the project libraries.
-6. Run the `Main` or `MainFrame` class to start the application.
-
-> Note: You need to add the Microsoft SQL Server JDBC Driver manually to the project libraries.
 
