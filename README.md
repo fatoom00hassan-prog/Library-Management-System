@@ -21,18 +21,20 @@ Database Connectivity: JDBC (Java Database Connectivity)
 User Interface: Java Swing
 
 
-##  System Features
+##  Key Features
 
-###  Admin Features
-- Add, update, and delete books
-- Register and manage members
-- Track borrowing records
-- Manage book availability
+###  Admin Capabilities
+- Full CRUD operations for books, users, and categories
+- Borrow and return management
+- Reservation handling
+- Fine calculation and management
+- Report generation and TXT export functionality
 
-###  Member Features
-- Borrow books
-- Return books
-- View borrowing history
+###  Member Capabilities
+- Book search functionality
+- View borrowed books
+- Reserve and cancel reservations
+- View reservation history
 
 ##  Database Design
 The system is connected to a SQL Server database that includes:
