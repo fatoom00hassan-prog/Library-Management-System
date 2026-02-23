@@ -8,6 +8,38 @@ The system automates core library operations including book management, member r
 This project was developed as a group project at Imam Abdulrahman Bin Faisal University (IAU).
 
 
+##  Project Structure
+
+```
+Library-Management-System/
+│
+├── src/                        # Java source files (Business Logic & UI)
+│   ├── DatabaseConnection.java
+│   ├── DatabaseManager.java
+│   ├── MainFrame.java
+│   ├── ManageBook.java
+│   ├── ManageCategories.java
+│   ├── Reservation.java
+│   ├── Users.java
+│   └── ...
+│
+├── database/                   # SQL database script
+│   └── LMS.sql
+│
+├── screenshots/                # Application UI screenshots
+│   ├── admin/                  # Admin interface screens
+│   ├── member/                 # Member interface screens
+│   └── welcome.png
+│
+├── docs/                       # System design documentation
+│   ├── uml.png
+│   ├── er.png
+│   └── relation-schema.png
+│
+├── README.md
+└── manifest.mf
+```
+
 ##  Tech Stack
 
 Language: Java  
